@@ -91,3 +91,66 @@ else if (hours < 17) {
 else if (hours == '17') {
   document.getElementById('five').classList.add('present')
 }
+
+document.getElementById('nine').value = localStorage.getItem('nine')
+
+document.getElementById('saveNine').addEventListener('click', event => {
+
+  localStorage.setItem('nine', document.getElementById('nine').value)
+})
+
+document.getElementById('ten').value = localStorage.getItem('ten')
+
+document.getElementById('saveTen').addEventListener('click', event => {
+
+  localStorage.setItem('ten', document.getElementById('ten').value)
+})
+
+document.getElementById('eleven').value = localStorage.getItem('eleven')
+
+document.getElementById('saveEleven').addEventListener('click', event => {
+
+  localStorage.setItem('eleven', document.getElementById('eleven').value)
+})
+
+document.getElementById('twelve').value = localStorage.getItem('twelve')
+
+document.getElementById('saveTwelve').addEventListener('click', event => {
+
+  localStorage.setItem('twelve', document.getElementById('twelve').value)
+})
+
+document.getElementById('one').value = localStorage.getItem('one')
+
+document.getElementById('saveOne').addEventListener('click', event => {
+
+  localStorage.setItem('one', document.getElementById('one').value)
+})
+
+document.getElementById('two').value = localStorage.getItem('two')
+
+document.getElementById('saveTwo').addEventListener('click', event => {
+
+  localStorage.setItem('two', document.getElementById('two').value)
+})
+
+document.getElementById('three').value = localStorage.getItem('three')
+
+document.getElementById('saveThree').addEventListener('click', event => {
+
+  localStorage.setItem('three', document.getElementById('three').value)
+})
+
+document.getElementById('four').value = localStorage.getItem('four')
+
+document.getElementById('saveFour').addEventListener('click', event => {
+
+  localStorage.setItem('four', document.getElementById('four').value)
+})
+
+document.getElementById('five').value = localStorage.getItem('five')
+
+document.getElementById('saveFive').addEventListener('click', event => {
+
+  localStorage.setItem('five', document.getElementById('five').value)
+})
